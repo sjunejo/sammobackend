@@ -17,5 +17,7 @@ namespace SammoBackend.Models
           bool RemoveQuery(string id);
 
           bool UpdateQuery(string id, Query query);
+
+          
     }
 }

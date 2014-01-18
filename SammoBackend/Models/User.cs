@@ -14,6 +14,7 @@ namespace SammoBackend.Models
         public string User_name { get; set; }
 
         // Location should only be updated when required
+        // Also, it needs to follow a predefined format.
         public string Location { get; set; }
 
         public string[] tags { get; set; }
